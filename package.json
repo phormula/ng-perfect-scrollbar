@@ -1,0 +1,33 @@
+{
+  "name": "p-scrollbar",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^15.0.0",
+    "@angular/core": "^15.0.0",
+    "perfect-scrollbar": "^1.5.5",
+    "resize-observer-polyfill": "^1.5.1"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "module": "fesm2015/p-scrollbar.mjs",
+  "es2020": "fesm2020/p-scrollbar.mjs",
+  "esm2020": "esm2020/p-scrollbar.mjs",
+  "fesm2020": "fesm2020/p-scrollbar.mjs",
+  "fesm2015": "fesm2015/p-scrollbar.mjs",
+  "typings": "index.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./index.d.ts",
+      "esm2020": "./esm2020/p-scrollbar.mjs",
+      "es2020": "./fesm2020/p-scrollbar.mjs",
+      "es2015": "./fesm2015/p-scrollbar.mjs",
+      "node": "./fesm2015/p-scrollbar.mjs",
+      "default": "./fesm2020/p-scrollbar.mjs"
+    }
+  },
+  "sideEffects": false
+}
